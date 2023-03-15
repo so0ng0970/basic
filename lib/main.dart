@@ -1,5 +1,4 @@
-import 'package:basic/pages/drawer_page.dart';
-import 'package:basic/pages/snack_bar.dart';
+import 'package:basic/pages/toast_message.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const SnackBarPage(),
+      home: const toastMsgPage(),
     );
   }
 }
